@@ -2,8 +2,7 @@
 
 Bioactivity prediction of growth inhibition in Streptococcus pneumoniae, trained as binary (active/inactive) classifiers from publicly available data in ChEMBL. Independent models are trained on multiple bioactivity datasets, corresponding to dose-response (MIC) assays, among others. A ranking score is provided for each model alongside a combined consensus score.
 
-This model was incorporated on 2026-05-19.
-
+This model was incorporated on 2026-05-19.Last packaged on 2026-05-21.
 
 ## Information
 ### Identifiers
@@ -44,12 +43,19 @@ _10 of 23 columns are shown_
 ### Source and Deployment
 - **Source:** `Local`
 - **Source Type:** `Internal`
+- **DockerHub**: [https://hub.docker.com/r/ersiliaos/eos5q52](https://hub.docker.com/r/ersiliaos/eos5q52)
+- **Docker Architecture:** `AMD64`
 - **S3 Storage**: [https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos5q52.zip](https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos5q52.zip)
 
 ### Resource Consumption
 - **Model Size (Mb):** `144`
 - **Environment Size (Mb):** `1888`
+- **Image Size (Mb):** `2366.73`
 
+**Computational Performance (seconds):**
+- 10 inputs: `62.3`
+- 100 inputs: `55.39`
+- 10000 inputs: `1294.84`
 
 ### References
 - **Source Code**: [https://github.com/ersilia-os/chembl-antimicrobial-models](https://github.com/ersilia-os/chembl-antimicrobial-models)
