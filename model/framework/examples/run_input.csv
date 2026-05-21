@@ -1,1 +1,4 @@
 smiles
+C#CCN1CC/C(=C\C2=C(C(=O)O)N3C(=O)[C@@H](NC(=O)/C(=N\O)c4csc(N)n4)[C@H]3SC2)C1=O
+C#CCNc1ccc(-c2ccc(N3C[C@H](CNC(C)=O)OC3=O)cc2F)ccc1=O
+C#CCNc1cccc(-c2ccc(N3CC(CNC(C)=O)OC3=O)cc2)cc1=O
