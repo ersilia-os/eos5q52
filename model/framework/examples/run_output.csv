@@ -1,4 +1,4 @@
-consensus_score,merged_mic_decoys_b,merged_mic_decoys_q,merged_mic_decoys_p,merged_mic_decoys_o,merged_mic_decoys_n,merged_mic_decoys_k,merged_mic_decoys_r,merged_mic_decoys_l,merged_mic_decoys_i,merged_mic_decoys_e,merged_mic_decoys_m,merged_mic_decoys_g,merged_mic_decoys_c,merged_mic_decoys_d,merged_mic_decoys_j,merged_mic_decoys_h,merged_mic_decoys_f,merged_mic_decoys_a,general_dose_response_decoys,general_mic_decoys,general_mic50_decoys,general_single_point_decoys,general_mic90,general_iz
-0.8223,0.4376,0.6383,0.3261,0.8083,0.4284,0.5926,0.5634,0.4778,0.6724,0.7217,0.9312,0.7872,0.5282,0.6011,0.6029,0.4368,0.5665,0.666,0.9744,0.9818,0.9189,0.8432,0.7678,0.6952
-0.7553,0.5814,0.5882,0.8453,0.8122,0.9582,0.5015,0.4587,0.4292,0.3558,0.4984,0.4408,0.3895,0.4792,0.5186,0.4646,0.2089,0.5325,0.8606,0.9666,0.9633,0.8613,0.672,0.7141,0.6839
-0.6798,0.5179,0.5531,0.6742,0.7559,0.925,0.5029,0.4734,0.4171,0.3601,0.4592,0.4747,0.3817,0.4522,0.5384,0.4357,0.139,0.515,0.7014,0.9535,0.9544,0.7525,0.6048,0.6286,0.5769
+consensus_score,chembl_single_point_0,chembl_dose_response_0,chembl_dose_response_1,chembl_dose_response_2,chembl_dose_response_3,chembl_dose_response_4,chembl_dose_response_5,chembl_dose_response_6
+0.8321,0.4656,0.6762,0.6815,0.8984,0.7679,0.9854,0.2374,0.6719
+0.6887,0.5359,0.748,0.6347,0.2373,0.443,0.9655,0.3017,0.7434
+0.5371,0.4609,0.7098,0.5103,0.1814,0.4134,0.7782,0.2196,0.7093
