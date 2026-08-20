@@ -1,6 +1,6 @@
 # Antimicrobial activity prediction against Streptococcus pneumoniae from public ChEMBL data
 
-Bioactivity prediction of growth inhibition in Streptococcus pneumoniae, trained as binary (active/inactive) classifiers from publicly available data in ChEMBL. Independent models are trained on multiple bioactivity datasets, corresponding to single-point (Inhibition) and dose-response (MIC) assays, among others. A ranking score is provided for each model alongside a combined consensus score.
+Scores compounds for activity against Streptococcus pneumoniae, a leading cause of pneumonia and meningitis where penicillin and macrolide resistance have both spread. Eight independent classifiers were fitted to distinct ChEMBL bioactivity pools and their outputs merged into a quality-weighted consensus. Public screening against this organism is thinner than for the ESKAPE pathogens, so several sub-models rest on modest compound numbers and the consensus is weighted accordingly.
 
 This model was incorporated on 2026-05-19.Last packaged on 2026-07-22.
 
@@ -12,7 +12,7 @@ This model was incorporated on 2026-05-19.Last packaged on 2026-07-22.
 ### Domain
 - **Task:** `Annotation`
 - **Subtask:** `Activity prediction`
-- **Biomedical Area:** `Pneumonia`
+- **Biomedical Area:** `Pneumonia`, `Antimicrobial resistance`
 - **Target Organism:** `Streptococcus pneumoniae`
 - **Tags:** `Gram-positive bacteria`, `Antimicrobial activity`, `ChEMBL`
 
@@ -23,7 +23,7 @@ This model was incorporated on 2026-05-19.Last packaged on 2026-07-22.
 ### Output
 - **Output Dimension:** `9`
 - **Output Consistency:** `Fixed`
-- **Interpretation:** Probability of antimicrobial activity against Streptococcus pneumoniae from 8 ChEMBL-trained sub-models, plus a quality-weighted consensus score.
+- **Interpretation:** Probability of Streptococcus pneumoniae growth inhibition across eight sub-models, plus a weighted consensus.
 
 Below are the **Output Columns** of the model:
 | Name | Type | Direction | Description |
